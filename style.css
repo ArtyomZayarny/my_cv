@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	background: #c6c6c6;
+}
+
+header, footer {
+	background-color: darkslategrey;
+}
+
+.container {
+	border: 1px solid grey;
+	max-width: 1140px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.99);
+
+}
+
+
+.header_wrap{
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.me {
+	padding: 50px;
+	float: left;
+	width: 300px;
+	
+}
+
+h1 {
+	float: left;
+	padding: 50px 0 0 0;
+	color: #ffffff;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+.social {
+	float: right;
+	padding: 50px;
+}
+
+.fac,
+.vk,
+.in {
+	width: 30px;
+	-webkit-transition: bottom 3s;
+	transition: bottom 3s;
+}
+.vk:hover {
+	position: relative;
+	bottom: 10px;
+}
+.fac:hover {
+	position: relative;
+	bottom: 5px;
+}
+.in:hover {
+	position: relative;
+	bottom: 5px;
+}
+
+.info,
+.educ,
+.skill {
+	font-size: 18px;
+	float: left;
+	width: 60%;
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	padding: 5px;
+}
+
+.skill>p>a:hover {
+	color: #fff;
+	background-color: #000;
+	border-radius: 5px;
+}
+
+.accounts {
+	margin-bottom: 20px;
+}
+
+header footer {
+	background-color: darkslategrey;
+}
+footer {
+	max-width: 100%;
+}
+.foot_wrap {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+footer p {
+	color:#ffffff;
+	font-size: 20px;
+	padding:20px;
+}
